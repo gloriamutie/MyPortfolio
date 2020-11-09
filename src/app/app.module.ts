@@ -32,3 +32,4 @@ const config: ExtraOptions = {
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
