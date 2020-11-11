@@ -40,7 +40,7 @@
         position: absolute;
         display: block;
         width: 4px;
-        background: #f2f3f7;
+        background: #fad4c8;
         top: 20px;
         bottom: 20px;
         margin-left: 29px; }
@@ -60,7 +60,7 @@
         display: block;
         width: 40px;
         height: 40px;
-        background: #2c98f0;
+        background:#fad4c8;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
@@ -74,7 +74,7 @@
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
           color: #fff; }
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-          background: #ec5453; }
+          background: #fad4c8; }
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
           background: #f9bf3f; }
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
@@ -149,4 +149,7 @@
       }
       .timeline-label ul{
         font-size: 1.3em;font-weight:500; font-family: "Quicksand", Arial, sans-serif;
+      }
+      .section{
+        background-color: #d8e0ed;
       }
