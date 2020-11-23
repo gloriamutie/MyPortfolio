@@ -19,7 +19,7 @@
                                   <span class="input-group-addon">
                                     <i class="fa fa-user-circle"></i>
                                   </span>
-                                  <input class="form-control" type="text" name="name" placeholder="Name"
+                                  <input class="form-control" type="text" name="name" placeholder="Name" style="background-color: #849fbd;"
                                     [(ngModel)]="model.name" #name="ngModel"
                                     [ngClass]="{ 'is-invalid': f.submitted && name.invalid }" required />
                                 </div>
@@ -31,7 +31,7 @@
                                   <span class="input-group-addon">
                                     <i class="fa fa-file-text"></i>
                                   </span>
-                                  <input class="form-control" type="text" name="subject" placeholder="Subject"
+                                  <input class="form-control" type="text" name="subject" placeholder="Subject" style="background-color: #849fbd;"
                                     [(ngModel)]="model.subject" #subject="ngModel"
                                     [ngClass]="{ 'is-invalid': f.submitted && subject.invalid }" required />
                                 </div>
@@ -43,7 +43,7 @@
                                   <span class="input-group-addon">
                                     <i class="fa fa-envelope"></i>
                                   </span>
-                                  <input class="form-control" type="text" name="email" placeholder="E-mail"
+                                  <input class="form-control" type="text" name="email" placeholder="E-mail" style="background-color: #849fbd;"
                                     [(ngModel)]="model.email" #email="ngModel"
                                     [ngClass]="{ 'is-invalid': f.submitted && email.invalid }"
                                     pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required />
@@ -61,7 +61,8 @@
                             </div>
                             <div class="row">
                               <div class="col">
-                                <button class="btn btn-primary" type="submit">Send</button>
+                                <button class="btn" type="submit" style="background-color: 
+                                #95a8d7;">Send</button>
                               </div>
                             </div>
                           </form>
