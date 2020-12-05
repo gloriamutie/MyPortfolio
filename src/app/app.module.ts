@@ -9,6 +9,7 @@ import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxSpinnerModule } from "ngx-spinner"; 
 
 const routes: Routes = [
   {
@@ -30,6 +31,7 @@ const config: ExtraOptions = {
     BrowserAnimationsModule,
     RouterModule.forRoot(routes, config),
     ProfileModule,
+    NgxSpinnerModule,
     HttpClientModule
   ],
   providers: [],
